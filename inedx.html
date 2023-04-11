@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in | HubStudy</title>
+    <link rel="icon" href="pics/hub_studyLOGO.png">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href=
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="allFilled.js"></script>
+</head>
+
+<body>
+  <Header>
+    <div class="header"></div>
+  </Header>
+
+  <div class="titles">
+    <h2>Вхід в особистий кабінет</h2>
+    <h3>Введіть ваші дані</h3>
+  </div>
+    
+  <form action="#"   method="post" enctype="multipart/form-data"
+   class="form">
+    <div class="label-input">
+      <label for="email" class="label">
+        Електронна адреса
+      </label>        
+        <input 
+        type="email" 
+        id="email"
+        autocomplete="off"
+        class="input"
+        placeholder="fake@gmail.com"
+        required
+    >
+    </div>
+
+    <div class="label-input"> 
+      <label for="password" class="label">
+        Пароль
+      </label>
+        <input 
+          type="password" 
+          name="password"
+          class="input" 
+          placeholder="Довжина паролю 6-25 символів"
+          minlength="6"
+          maxlength="25"
+          required 
+        >
+    </div>
+      
+    <div class="buttons1">
+      <button type="submit" class="log-in">Увійти</button>
+    </div>
+
+    <div class="bottom-elem">
+      <div class="text">Ще не маєте акаунта?
+      </div>
+      <div>
+        <a href="register.html" class="button-reg">Зареєструватись</a>
+      </div>
+    </div>
+    
+
+  </form>
+
+
+</body>
+</html>
